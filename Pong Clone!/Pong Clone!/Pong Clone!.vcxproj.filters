@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Function Header">
+      <UniqueIdentifier>{85503271-38f4-415a-b614-0a24fa97b7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Function Source">
+      <UniqueIdentifier>{6f5f02f8-db81-4141-9579-e912e2699b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Object Base Class Header">
+      <UniqueIdentifier>{2978f1cc-f556-4611-b722-e0c2de671b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Object Base Class Source">
+      <UniqueIdentifier>{ca3ace02-eeb4-43ec-92c2-43fc23c67960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Object Base Class Header\Game Object Custom Derived Class Header">
+      <UniqueIdentifier>{465906f0-04e5-497f-8dec-388afe122518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Object Base Class Source\Game Object Custom Derived Class Source">
+      <UniqueIdentifier>{f2d107dc-f4f8-4c50-a436-e66e6f6a291c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="general_functions.cpp">
+      <Filter>Source Files\Function Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_loader.cpp">
+      <Filter>Source Files\Function Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Game Object Base Class Source\Game Object Custom Derived Class Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverUI.cpp">
+      <Filter>Source Files\Game Object Base Class Source\Game Object Custom Derived Class Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files\Game Object Base Class Source\Game Object Custom Derived Class Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="general_functions.h">
+      <Filter>Header Files\Function Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\Game Object Base Class Header\Game Object Custom Derived Class Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverUI.h">
+      <Filter>Header Files\Game Object Base Class Header\Game Object Custom Derived Class Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Header Files\Game Object Base Class Header\Game Object Custom Derived Class Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
